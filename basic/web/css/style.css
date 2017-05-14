@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main, nav {
+  flex: 1 0 auto;
+}
+
+footer {
+	background: #666699;
+  flex: 0 0 auto;
+	padding: 10px;
+	color: white;
+}
+
+header {
+	height: 50px;
+}
+
+.navbar {
+	background: #666699;
+	color: white;
+}
+
+.navbar .active a {
+	background: #879abb !important;
+	color: white;
+}
+
+.navbar a {
+	color: white !important;
+}

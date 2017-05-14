@@ -1,0 +1,1 @@
+yii migrate/create create_user_table --fields=login:string(255):notNull,pass:string(32):notNull,first_name:string(255),last_name:string(255) yii_migrate
