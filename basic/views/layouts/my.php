@@ -34,6 +34,7 @@ AppAsset::register($this);
 			],
 	]);
 	
+	
 	$menu = [
 					['label' => 'Главная',        'url' => ['/test/index']],
 					['label' => 'О нас',          'url' => ['/test/about']],
@@ -43,7 +44,8 @@ AppAsset::register($this);
 						'data-target' => '#contact'
 					]],
 			];
-			
+	
+	
 	if (Yii::$app->user->isGuest){
 		$menu[] = ['label' => 'Авторизация', 'url' => ['/test/login']];
 	}

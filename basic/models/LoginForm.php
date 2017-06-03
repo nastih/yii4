@@ -3,7 +3,7 @@
 namespace app\models;
 
 use Yii;
-//use yii\base\Model
+//use yii\base\Model;
 /**
  * This is the model class for table "user".
  *
@@ -76,7 +76,7 @@ class LoginForm extends \yii\db\ActiveRecord
 		if (!$this->hasErrors()){
 			$user = $this->getUser();
 			if (!$user){
-				$this->addError($attribute, 'Не вераня связка логин/пароль');
+				$this->addError($attribute, 'Неверная связка логин/пароль');
 			}
 		}
 	}

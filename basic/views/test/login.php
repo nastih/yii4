@@ -19,4 +19,5 @@ use yii\bootstrap\ActiveForm;
 			]) ?>
 		</div>
 	</div>
+	
 <?php ActiveForm::end() ?>

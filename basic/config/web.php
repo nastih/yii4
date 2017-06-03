@@ -48,16 +48,16 @@ $config = [
             'showScriptName' => false,
 						//'enableStrictParsing' => true,
             'rules' => [
-							// [
-								// 'pattern' => '<controller>/<action>/<id:\d+>',
-								// 'route'   => '<controller>/<action>',
-								// 'suffix'	=> '',	
-							// ],
-							//[
-							//	'pattern' => '<controller>/<action>',	//	Шаблон ссылки
-							//	'route'   => '<controller>/<action>',	//	Маршрут для ссылки
-							//	'suffix'	=> '',						//	Подставляемый суффикс
-							//],
+							 [
+								'pattern' => '<controller>/<action>/<id:\d+>',
+								'route'   => '<controller>/<action>',
+								'suffix'	=> '',	
+							],
+							[
+								'pattern' => '<controller>/<action>',	//	Шаблон ссылки
+								'route'   => '<controller>/<action>',	//	Маршрут для ссылки
+								'suffix'	=> '',						//	Подставляемый суффикс
+							], 
 							// [
 								// 'pattern' => '<module>/<controller>/<action>/<id:\d+>',
 								// 'route'   => '<controller>/<action>',
